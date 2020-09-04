@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Talk</title>
+</head>
+
+<body>
+    <!--Status Bar-->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <!--Screen header Bar-->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <!--Screen header Icon-->
+        <div class="screen-header__icons">
+            <span class="screen-heade__icons-seach">
+                <i class=" fas fa-search fa-lg "></i>
+            </span>
+            <span class="screen-heade__icons-cog">
+            <span class="screen-heade__icons-cog">
+                <a href="settings.html">
+                    <span class="cog-state"></span>
+            <i class="fas fa-cog fa-lg"></i></a>
+            </span>
+        </div>
+    </header>
+
+    <!--Main Find page Screen-->
+    <main class="main-screen ">
+        <!--Find page Icon-->
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-qrcode"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fab fa-orcid"></i>
+                <span>Addby ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+
+        </div>
+        <!--Recommended-->
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recomended Friends</h6>
+            <span>You have no recommended friends</span>
+        </div>
+        <!--Open Chat-->
+        <div class="open-chat">
+            <!--Open chat header-->
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to Openchat Home</span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#NANA</h5>
+                    <h6 class="open-post__hashtags">#NANA#My#Girl</h6>
+                    <div class="open-post__members">
+                        <img src="screenshots/soon.JPG" />
+                        <span class=" open-post__mamber-count ">802members</span>
+                        <div class="divider "></div>
+                        <span class="open-post__member-status ">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column ">
+                    <div class="open-post__photo">
+                        <img src="https://www.topstarnews.net/news/photo/201909/667324_372753_05.png" />
+                        <div class="open-post__heart-count">
+                            <i class="fas fa-heart"></i>
+                            <span>999</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Friends Navigation -->
+    <nav class="nav ">
+        <ul class="nav__list ">
+            <li class="nav__bottom ">
+                <a class="nav__link " href="friends.html ">
+                    <i class="far fa-user fa-2x "></i>
+                </a>
+            </li>
+            <li class="nav__bottom ">
+                <a class="nav__link " href="chats.html ">
+                    <span class="nav__notification badge ">1</span>
+                    <i class="far fa-comment fa-2x "></i>
+                </a>
+            </li>
+            <li class="nav__bottom ">
+                <a class="nav__link " href="find.html ">
+                    <i class="fas fa-search fa-2x "></i>
+                </a>
+            </li>
+            <li class="nav__bottom ">
+                <a class="nav__link " href="more.html ">
+                    <i class="fas fa-ellipsis-h fa-2x "></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>You screen is too big :(</span>
+    </div>
+    <!--icon kit-->
+    <script src="https://kit.fontawesome.com/c852e2a9df.js " crossorigin="anonymous ">
+    </script>
+
+</body>
+
+</html>
