@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 5px 3px;
     width: 100%;
+    top: 0px;
 }
 
 .status-bar__column {
